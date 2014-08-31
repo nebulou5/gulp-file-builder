@@ -1,0 +1,36 @@
+{
+  "name": "gulp-file-builder",
+  "description": "Replace custom tokens with the content of a file.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FuzzySockets/gulp-file-builder.git"
+  },
+  "author": {
+    "name": "Richard Harrington",
+    "email": "rwharrington87@gmail.com"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin",
+    "file",
+    "replace",
+    "token",
+    "template"
+  ],
+  "dependencies": {
+    "gulp-util": "^2.2.5",
+    "through2": "^0.6.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
